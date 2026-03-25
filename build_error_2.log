@@ -1,0 +1,29 @@
+
+> data-analyst-portfolio@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 1875 modules transformed.
+x Build failed in 3.56s
+error during build:
+src/App.jsx (3:7): "default" is not exported by "src/components/Hero.jsx", imported by "src/App.jsx".
+file: D:/Data Analyst/portfolio/src/App.jsx:3:7
+
+1: import React from 'react';
+2: import Navbar from './components/Navbar';
+3: import Hero from './components/Hero';
+          ^
+4: import About from './components/About';
+5: import Experience from './components/Experience';
+
+    at getRollupError (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at Module.error (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/node-entry.js:17040:16)
+    at Module.traceVariable (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/node-entry.js:17452:29)
+    at ModuleScope.findVariable (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/node-entry.js:15070:39)
+    at FunctionScope.findVariable (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at FunctionBodyScope.findVariable (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/node-entry.js:5673:38)
+    at Identifier.bind (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/node-entry.js:5447:40)
+    at CallExpression.bind (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/node-entry.js:2825:28)
+    at CallExpression.bind (file:///D:/Data%20Analyst/portfolio/node_modules/rollup/dist/es/shared/node-entry.js:12179:15)
